@@ -31,7 +31,7 @@ export default class ReactSequenceViewer extends Component {
     const div = this._div;
 
     //Render div if it is not null.
-    if (div !== null) {
+    if (div !== null && this.props.sequence !== null) {
       this._seqObj.render('#' + div.id,{...props,...newProps});
       if (this.props.coverage.length > 0) this._seqObj.coverage(this.props.coverage);
       if (this.props.legend.length > 0) this._seqObj.addLegend(this.props.legend);
