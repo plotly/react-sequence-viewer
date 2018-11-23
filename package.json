@@ -20,7 +20,7 @@
     "test:watch": "nwb test --server"
   },
   "dependencies": {
-    "sequence-viewer": "git://github.com/shammamah/sequence-viewer.git",
+    "sequence-viewer": "shammamah/sequence-viewer#10525aa",
     "uuid": "^3.0.1"
   },
   "peerDependencies": {
