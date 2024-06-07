@@ -1,5 +1,11 @@
 # react-sequence-viewer
 
+<div align="center">
+  <a href="https://dash.plotly.com/project-maintenance">
+    <img src="https://dash.plotly.com/assets/images/maintained-by-community.png" width="600px" alt="Maintained by the Plotly Community">
+  </a>
+</div>
+
 ## Description
 
 A [React](https://facebook.github.io/react/) wrapper around the [BioJS](https://biojs.net/) [sequence-viewer](https://github.com/calipho-sib/sequence-viewer)
